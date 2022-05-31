@@ -6,13 +6,14 @@ package com.mycompany.app;
 public class App
 {
     /**
-        Test 1
+        Test 1123232
     */
     private final String message = "Hello World!";
 
     public App() {}
 
     public static void main(String[] args) {
+        System.out.println("hhhhhhhhhhhhhhhhhh");
         System.out.println(new App().getMessage());
     }
 
