@@ -8,12 +8,13 @@ public class App
     /**
         Test 1123232
     */
-    private final String message = "Hello World!";
+         private final String message = "Hello World!";
 
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("hhhhhhhhhhhhhhhhhh");
+        String apptest = "AppTest!";
+        System.out.println(apptest);
         System.out.println(new App().getMessage());
     }
 
